@@ -44,4 +44,6 @@ npm run report:clean
 npm run cy:open
 ```
   
-  
+### [GitHuB Pages](https://nathalykelly.github.io/automacao-ecommerce-cypress/)
+
+### [Linkedin](https://www.linkedin.com/in/nathaly-silva-9ab537192/)
