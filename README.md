@@ -12,7 +12,7 @@
  
  ### Preparação para Executar a Automação
 
-1. Instalar a linguagem (Node.js) que contempla o gerenciador de pacotes (NPM): https://nodejs.org
+1. [Instalar a linguagem (Node.js)](https://nodejs.org)
 
 2. Na raiz do projeto, execute para realizar a instalação do projeto e dependências:
 
