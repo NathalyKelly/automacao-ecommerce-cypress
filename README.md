@@ -1,4 +1,4 @@
-﻿# Automção de um E-commerce utilizando Cypress
+﻿# Automação de um E-commerce utilizando Cypress
  
  ### Execução do Testes
 
