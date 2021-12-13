@@ -5,7 +5,7 @@
 <p align="center">
   <img width="400" height="300" src="cypress/videos/cadastro.spec.js.gif">
 </p>
-#### [GitHuB Pages](https://nathalykelly.github.io/automacao-ecommerce-cypress/)
+### [GitHuB Pages](https://nathalykelly.github.io/automacao-ecommerce-cypress/)
 
  ### Descrição
  
