@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-13T17:20:02.322Z",
+    "end": "2021-12-13T17:20:24.944Z",
+    "duration": 22622,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "47d7385d-ff78-42a3-87ca-3f2775ddca5b",
+      "title": "",
+      "fullFile": "cypress/integration/cadastro.spec.js",
+      "file": "cypress/integration/cadastro.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "785869ec-a92f-44ef-a4a9-dc3935ddb94d",
+          "title": "Cadastro",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Quando informar os dados e finalizar, então um novo usuário será cadastrado no sistema",
+              "fullTitle": "Cadastro Quando informar os dados e finalizar, então um novo usuário será cadastrado no sistema",
+              "timedOut": null,
+              "duration": 18982,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://automationpractice.com/index.php');\ncy.get('div .login').click();\ncy.get('input#email_create').type(chance.email());\ncy.get('button#SubmitCreate').click();\ncy.get('div#uniform-id_gender1').click;\ncy.get('input#customer_firstname').type(chance.name());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').type('mudar@123');\ncy.get('select#days').select('1', {\n  force: true\n});\ncy.get('select#months').select('1', {\n  force: true\n});\ncy.get('select#years').select('1999', {\n  force: true\n});\ncy.get('input#newsletter').click();\ncy.get('input#optin').click();\ncy.get('input#company').type(chance.name());\ncy.get('input#address1').type(chance.address());\ncy.get('input#address2').type('Teste');\ncy.get('input#city').type(chance.city());\ncy.get('select#id_state').select('2', {\n  force: true\n});\ncy.get('input#postcode').type(chance.zip());\ncy.get('textarea#other').type('Teste Automação');\ncy.get('input#phone').type(chance.phone());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('button#submitAccount').click();\ncy.get('a[title=\"Orders\"]').should('be.visible');\ncy.url().should('contain', 'controller=my-account');",
+              "err": {},
+              "uuid": "a53bd76c-4a0b-46c5-a735-1ed6f6e0ceba",
+              "parentUUID": "785869ec-a92f-44ef-a4a9-dc3935ddb94d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a53bd76c-4a0b-46c5-a735-1ed6f6e0ceba"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18982,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
