@@ -1,0 +1,6 @@
+cypress/videos
+.DS_Store
+index.json
+mochawesome-report
+node_modules
+package-lock.json
